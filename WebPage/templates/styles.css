@@ -1,0 +1,135 @@
+body
+                {
+                        background-color: #b3d1ff;
+                }
+
+.text
+                {
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        height: 20px;
+                }
+#passField
+                {
+                        margin-left: 30px;
+                }
+#loginDiv
+                {
+                        margin-top: 400px;
+                }
+#loginBut
+                {
+                        width : 150px;
+                        height: 30px;
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+                }
+#loginBut:hover
+                {
+
+                        background: #0066ff;
+                }
+
+.notesBut
+                {
+
+                        margin-left: 30px;
+                        width: 100px;
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+                }
+
+.notesBut:hover
+                {
+
+                        background: #0066ff;
+                }
+
+#butSet
+                {
+
+                        background-color: #f5f5f0;
+                        margin-left: -20px;
+                        margin-top: -70px;
+                        position: absolute;
+                        width: 160px;
+                        height: 100%;
+                }
+
+#addBut
+                {margin-top: 100px;}
+#searchBut
+                {margin-top: 35px;}
+#myNBut
+                {margin-top: 35px;}
+#textArea
+                {
+                        margin-left: 160px;
+                        margin-top: 50px;
+                }
+
+.LabelTags
+                {
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+
+                }
+#noteText
+                {
+                        font-size: 18px;
+                        width: 470px;
+                        height: 200px;
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+
+                }
+#searchField
+                {
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+                        width: 470px;
+                        font-size: 14px;
+                }
+
+#resultsOfSearch ul li
+                {
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+                        width: 430px;
+                        height: 25px;
+                        font-size: 16px;
+                        margin-top: 30px;
+                        padding-top: 5px;
+                        padding-left: 5px;
+                }
+
+#resultsOfSearch ul li:hover
+                {
+                        background: #f5f5f0;
+                }
+
+#showNoteDiv
+                {
+                        font-size: 18px;
+                        width: 470px;
+                        height: 200px;
+                        border: 2px solid;
+                        border-color: #0066ff;
+                        border-radius: 6px;
+                        background: #ffffff;
+                        overflow: auto;
+                }
+

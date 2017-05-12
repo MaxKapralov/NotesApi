@@ -1,0 +1,16 @@
+<div id = "butSet">
+	<p><button class = "notesBut" id = "addBut" ng-click = "newNoteField()">Add Note</button></p>
+	<p><button class = "notesBut" id = "searchBut" ng-click = "searchField()">Search</button></p>
+	<p><button class = "notesBut" id = "myNBut" ng-click = "myNotesField()">My Notes</button></p>
+</div>
+
+<div id = "textArea" ng-controller = "allNotesCtrl">
+	<div id = "resultsOfSearch">
+                <ul type = "none" ng-repeat = "note in notes">
+                                <li ng-click = "showNote(note.id)">
+                                        Label: {{note.label}} | Note: {{note.note | LimitSymb}}
+                                </li>
+                </ul>
+        </div>
+
+</div>

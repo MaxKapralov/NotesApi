@@ -1,0 +1,16 @@
+<div id = "butSet">
+	<p><button class = "notesBut" id = "addBut" ng-click = "newNoteField()">Add Note</button></p>
+	<p><button class = "notesBut" id = "searchBut" ng-click = "searchField()">Search</button></p>
+	<p><button class = "notesBut" id = "myNBut" ng-click = "myNotesField()">My Notes</button></p>
+
+</div>
+
+<div id = "textArea" ng-init = "myNote" ng-controller = "showNoteCtrl">
+	<div id = "showNoteDiv">
+		<p>Label:{{myNote.label}}</p>
+		<p>Tags: {{myTags}}</p>
+		<p>Note: {{myNote.note}}</p>
+	</div>
+	<p><button class = "notesBut" ng-click = "deleteNote(myNote.id)">Delete</button>
+	<button class = "notesBut" ng-click = "edit(myNote.id)">Edit</button></p>			
+</div>

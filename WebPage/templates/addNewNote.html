@@ -1,0 +1,13 @@
+<div id = "butSet">
+	<p><button class = "notesBut" id = "addBut" ng-click = "newNoteField()">Add Note</button></p>
+	<p><button class = "notesBut" id = "searchBut" ng-click = "searchField()">Search</button></p>
+	<p><button class = "notesBut" id = "myNBut" ng-click = "myNotesField()">My Notes</button></p>
+
+</div>
+
+<div id = "textArea" ng-controller = "newNoteCtrl">
+	<p><input type = "text" class = "LabelTags" placeholder = "Label" ng-model = "newNoteLabel">
+	<input type = "text" class = "LabelTags" placeholder = "Tags" ng-model = "newNoteTags"></p>
+	<p><textarea id = "noteText" placeholder = "Note" ng-model = "newNote"></textarea></p>
+	<button class = "notesBut"ng-click = "addNote()">Add</button>
+</div>
